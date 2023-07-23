@@ -4,6 +4,9 @@ import java.util.Map;
 public class Survey {
 
     public static void main(String[] args) {
+        // Used info from the following page to compute the prior probabilities
+        // for these four parties:
+        // https://ballot-access.org/2022/12/27/December-2022-ballot-access-news-print-edition/
         Map<Party, PartyManager> partyManagerMap = new HashMap<>() {{
             put(Party.DEMOCRAT, new PartyManager(Party.DEMOCRAT, 0.5603));
             put(Party.REPUBLICAN, new PartyManager(Party.REPUBLICAN, 0.4282));
