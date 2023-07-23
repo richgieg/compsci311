@@ -14,6 +14,8 @@ Asks the user 10 questions and presents the probabilities that they are affiliat
 
 Asks the user what their party affiliation is and saves their answers so that it gets better at making guesses.
 
+The included data files already have sample surveys for each political party.
+
 ## Build & Run
 
 You must have the Java Development Kit installed on your system.
